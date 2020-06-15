@@ -7,6 +7,12 @@ import javax.persistence.Column;
 import javax.persistence.Id;
 import java.io.Serializable;
 
+/**
+ * @author 老铁
+ * @create 2020-06-11 15:05
+ */
+
+
 @Data
 @ToString
 public class BaseCatalog1 implements Serializable {

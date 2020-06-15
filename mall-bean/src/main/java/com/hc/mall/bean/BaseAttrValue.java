@@ -7,6 +7,11 @@ import javax.persistence.Column;
 import javax.persistence.Id;
 import java.io.Serializable;
 
+
+/**
+ * @author 老铁
+ * @create 2020-06-11 15:16
+ */
 @Data
 @ToString
 public class BaseAttrValue implements Serializable {
@@ -17,5 +22,6 @@ public class BaseAttrValue implements Serializable {
     private String valueName;
     @Column
     private String attrId;
+
 
 }

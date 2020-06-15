@@ -1,7 +1,6 @@
 package com.hc.mall.service;
 
-
-
+import com.hc.mall.bean.UserAddress;
 import com.hc.mall.bean.UserInfo;
 
 import java.util.List;
@@ -36,6 +35,14 @@ public interface UserService  {
      *  删除数据
      */
     void delUser(UserInfo userInfo);
+
+
+    /**
+     * 根据用户id查询用户的地址
+     * @param userId
+     * @return
+     */
+    public List<UserAddress> getUserAddressList(String userId);
 
 
 }

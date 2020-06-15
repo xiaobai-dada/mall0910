@@ -1,6 +1,7 @@
 package com.hc.mall.bean;
 
 import lombok.Data;
+import lombok.ToString;
 
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
@@ -9,6 +10,7 @@ import javax.persistence.Id;
 import java.io.Serializable;
 
 @Data
+@ToString
 public class UserInfo implements Serializable {
 
      // id   Column   GeneratedValue 都是通用mapper的注解
