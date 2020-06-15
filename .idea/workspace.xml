@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaa8f03c-3eec-44a9-8790-4cb8f7879ec1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastdfs-client-java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fastdfs-client-java/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-bean/src/main/java/com/hc/mall/bean/BaseAttrInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-bean/src/main/java/com/hc/mall/bean/BaseAttrInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-bean/src/main/java/com/hc/mall/bean/BaseAttrValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-bean/src/main/java/com/hc/mall/bean/BaseAttrValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-bean/src/main/java/com/hc/mall/bean/BaseCatalog1.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-bean/src/main/java/com/hc/mall/bean/BaseCatalog1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-bean/src/main/java/com/hc/mall/bean/BaseCatalog2.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-bean/src/main/java/com/hc/mall/bean/BaseCatalog2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-bean/src/main/java/com/hc/mall/bean/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-bean/src/main/java/com/hc/mall/bean/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-bean/target/classes/com/hc/mall/bean/BaseAttrInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall-bean/target/classes/com/hc/mall/bean/BaseAttrInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-bean/target/classes/com/hc/mall/bean/BaseAttrValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall-bean/target/classes/com/hc/mall/bean/BaseAttrValue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-bean/target/classes/com/hc/mall/bean/BaseCatalog1.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall-bean/target/classes/com/hc/mall/bean/BaseCatalog1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-bean/target/classes/com/hc/mall/bean/BaseCatalog2.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall-bean/target/classes/com/hc/mall/bean/BaseCatalog2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-bean/target/classes/com/hc/mall/bean/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall-bean/target/classes/com/hc/mall/bean/UserInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-interface/src/main/java/com/hc/mall/service/ManageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/src/main/java/com/hc/mall/service/ManageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-interface/src/main/java/com/hc/mall/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/src/main/java/com/hc/mall/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-interface/target/classes/com/hc/mall/service/ManageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/target/classes/com/hc/mall/service/ManageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-interface/target/classes/com/hc/mall/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/target/classes/com/hc/mall/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/mapper/BaseAttrInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/mapper/BaseAttrInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/mapper/BaseAttrValueMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/mapper/BaseAttrValueMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/mapper/BaseCatalog1Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/mapper/BaseCatalog1Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/mapper/BaseCatalog2Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/mapper/BaseCatalog2Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/mapper/BaseCatalog3Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/mapper/BaseCatalog3Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/service/ManageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/service/ManageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-service/target/classes/com/hc/mall/manageservice/mapper/BaseAttrInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/target/classes/com/hc/mall/manageservice/mapper/BaseAttrInfoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-service/target/classes/com/hc/mall/manageservice/service/ManageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/target/classes/com/hc/mall/manageservice/service/ManageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-web/mall-manage-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-web/mall-manage-web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-web/src/main/java/com/hc/mall/manageweb/controller/ManageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-web/src/main/java/com/hc/mall/manageweb/controller/ManageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-web/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-web/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-web/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-web/target/classes/com/hc/mall/manageweb/controller/ManageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-web/target/classes/com/hc/mall/manageweb/controller/ManageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-order-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-order-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-order-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mall-order-web/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +26,12 @@
       <list>
         <option value="xiaobai-dada &lt;65056514+xiaobai-dada@users.noreply.github.com&gt;" />
       </list>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -120,7 +88,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15004262" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -215,7 +183,7 @@
       <workItem from="1591923499920" duration="1510000" />
       <workItem from="1591927857551" duration="8681000" />
       <workItem from="1592182894385" duration="13310000" />
-      <workItem from="1592226394702" duration="2197000" />
+      <workItem from="1592226394702" duration="2457000" />
     </task>
     <task id="LOCAL-00001" summary="项目上传">
       <created>1591931976671</created>
@@ -224,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591931976671</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="截止2020-06-15重大更新">
+      <created>1592228947702</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592228947702</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +207,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目上传" />
+    <MESSAGE value="截止2020-06-15重大更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="截止2020-06-15重大更新" />
   </component>
   <component name="WindowStateProjectService">
     <state x="861" y="177" key="#Notifications" timestamp="1591842603812">
@@ -247,10 +223,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1245" y="232" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592214440860" />
-    <state x="295" y="75" width="1216" height="843" key="CommitChangelistDialog2" timestamp="1591931973110">
+    <state x="295" y="75" width="1216" height="843" key="CommitChangelistDialog2" timestamp="1592228990167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="295" y="75" width="1216" height="843" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591931973110" />
+    <state x="295" y="75" width="1216" height="843" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592228990167" />
     <state x="1003" y="185" key="FileChooserDialogImpl" timestamp="1591789943286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -287,18 +263,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1521" height="343" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592228878809" />
-    <state x="191" y="72" width="1312" height="942" key="SettingsEditor" timestamp="1592189038649">
+    <state x="191" y="72" width="1312" height="942" key="SettingsEditor" timestamp="1592229137025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="191" y="72" width="1312" height="942" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592189038649" />
+    <state x="191" y="72" width="1312" height="942" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592229137025" />
     <state width="498" height="456" key="SwitcherDM" timestamp="1591942221215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="456" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1591942221215" />
-    <state x="694" y="207" key="Vcs.Push.Dialog.v2" timestamp="1591932031928">
+    <state x="694" y="207" key="Vcs.Push.Dialog.v2" timestamp="1592229025599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="694" y="207" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591932031928" />
+    <state x="694" y="207" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592229025599" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1592226395308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
