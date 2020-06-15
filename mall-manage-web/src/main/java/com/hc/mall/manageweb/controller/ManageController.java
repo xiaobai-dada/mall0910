@@ -42,7 +42,6 @@ public class ManageController {
     @RequestMapping("baseSaleAttrList")
     @ResponseBody
     public List<BaseSaleAttr> getBaseSaleAttrList() {
-
         return manageService.getBaseSaleAttrList();
     }
 }
