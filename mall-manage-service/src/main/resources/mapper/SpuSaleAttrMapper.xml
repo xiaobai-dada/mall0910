@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper SYSTEM "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.hc.mall.manageservice.mapper.SpuSaleAttrMapper">
+
+    <!-- resultMap：返回结果集    id：唯一标识   type：结果集返回的数据类型   autoMapping自动映射    -->
+    <resultMap id="spuSaleAttrMap" type="com.hc.mall.bean.SpuSaleAttr" autoMapping="true">
+    <!--id :表示主键    property：实体类的属性名   column表中的字段名  -->
+        <id property="id" column="id"></id>
+
+    <!--  配置一对多使用     ofType：返回集合的属性对象 -->
+        <collection property="spuSaleAttrValueList" ofType="com.hc.mall.bean.SpuSaleAttrValue" autoMapping="true">
+            <id property="id" column="sale_attr_value_id"></id>
+<!--            <result property="id" column="id"></result>-->
+        </collection>
+
+        <!--  多对一使用      -->
+<!--        <association property=""></association>-->
+    </resultMap>
+
+    <!--  List<SpuSaleAttr> selectSpuSaleAttrList(String spuId);    -->
+    <select id="selectSpuSaleAttrList" resultMap="spuSaleAttrMap">
+            SELECT ssa.id,
+            ssa.spu_id,
+            ssa.sale_attr_id,
+            ssa.sale_attr_name,
+            ssav.id sale_attr_value_id,
+            ssav.sale_attr_value_name
+            from
+            spu_sale_attr ssa
+            INNER JOIN
+            spu_sale_attr_value ssav
+            ON
+            ssa.spu_id  = ssav.spu_id
+            and
+            ssa.sale_attr_id = ssav.sale_attr_id
+            where
+            ssa.spu_id= #{0};
+
+    </select>
+
+
+</mapper>

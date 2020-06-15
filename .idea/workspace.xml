@@ -183,7 +183,7 @@
       <workItem from="1591923499920" duration="1510000" />
       <workItem from="1591927857551" duration="8681000" />
       <workItem from="1592182894385" duration="13310000" />
-      <workItem from="1592226394702" duration="2457000" />
+      <workItem from="1592226394702" duration="2711000" />
     </task>
     <task id="LOCAL-00001" summary="项目上传">
       <created>1591931976671</created>
@@ -199,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592228947702</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="截止2020-06-15重大更新">
+      <created>1592229158203</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592229158203</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,10 +218,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="截止2020-06-15重大更新" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="861" y="177" key="#Notifications" timestamp="1591842603812">
+    <state x="861" y="177" key="#Notifications" timestamp="1592229295018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="861" y="177" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1591842603812" />
+    <state x="861" y="177" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1592229295018" />
     <state x="697" y="152" key="#Project_Structure" timestamp="1591770856722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -223,10 +230,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1245" y="232" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592214440860" />
-    <state x="295" y="75" width="1216" height="843" key="CommitChangelistDialog2" timestamp="1592228990167">
+    <state x="295" y="75" width="1216" height="843" key="CommitChangelistDialog2" timestamp="1592229157706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="295" y="75" width="1216" height="843" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592228990167" />
+    <state x="295" y="75" width="1216" height="843" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592229157706" />
     <state x="1003" y="185" key="FileChooserDialogImpl" timestamp="1591789943286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -271,10 +278,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="456" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1591942221215" />
-    <state x="694" y="207" key="Vcs.Push.Dialog.v2" timestamp="1592229025599">
+    <state x="694" y="207" key="Vcs.Push.Dialog.v2" timestamp="1592229194770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="694" y="207" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592229025599" />
+    <state x="694" y="207" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592229194770" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1592226395308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
