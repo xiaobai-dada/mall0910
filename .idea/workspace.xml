@@ -1,33 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eaa8f03c-3eec-44a9-8790-4cb8f7879ec1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="eaa8f03c-3eec-44a9-8790-4cb8f7879ec1" name="Default Changelist" comment="截止2020-06-17重大更新，redisson，缓冲击穿的解决方案">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-bean/src/main/java/com/hc/mall/bean/BaseAttrInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-bean/src/main/java/com/hc/mall/bean/BaseAttrInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-bean/src/main/java/com/hc/mall/bean/SkuInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-bean/src/main/java/com/hc/mall/bean/SkuInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-bean/target/classes/com/hc/mall/bean/BaseAttrInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall-bean/target/classes/com/hc/mall/bean/BaseAttrInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-bean/target/classes/com/hc/mall/bean/SkuInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall-bean/target/classes/com/hc/mall/bean/SkuInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-interface/src/main/java/com/hc/mall/service/ManageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/src/main/java/com/hc/mall/service/ManageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-interface/target/classes/com/hc/mall/service/ManageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/target/classes/com/hc/mall/service/ManageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-service/mall-manage-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/mall-manage-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/mapper/SkuSaleAttrValueMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/mapper/SkuSaleAttrValueMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/mapper/SpuSaleAttrMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/mapper/SpuSaleAttrMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/MallManageServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/MallManageServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/service/ManageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/service/ManageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-service/src/main/resources/mapper/SpuSaleAttrMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/src/main/resources/mapper/SpuSaleAttrMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall-manage-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall-manage-service/target/classes/com/hc/mall/manageservice/service/ManageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/target/classes/com/hc/mall/manageservice/service/ManageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-web/src/main/java/com/hc/mall/manageweb/controller/ManageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-web/src/main/java/com/hc/mall/manageweb/controller/ManageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-web/target/classes/com/hc/mall/manageweb/controller/ManageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-web/target/classes/com/hc/mall/manageweb/controller/ManageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-service-util/mall-service-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-service-util/mall-service-util.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-service-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-service-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-user-manage/mall-user-manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-user-manage/mall-user-manage.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,6 +189,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
@@ -253,7 +237,7 @@
       <workItem from="1592379319362" duration="470000" />
       <workItem from="1592379809924" duration="129000" />
       <workItem from="1592379958637" duration="599000" />
-      <workItem from="1592380575214" duration="16753000" />
+      <workItem from="1592380575214" duration="19352000" />
     </task>
     <task id="LOCAL-00001" summary="项目上传">
       <created>1591931976671</created>
@@ -290,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592230647093</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="截止2020-06-15重大更新">
+      <created>1592401797994</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592401797994</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +290,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目上传" />
     <MESSAGE value="截止2020-06-15重大更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="截止2020-06-15重大更新" />
+    <MESSAGE value="截止2020-06-17重大更新，redisson，缓冲击穿的解决方案" />
+    <option name="LAST_COMMIT_MESSAGE" value="截止2020-06-17重大更新，redisson，缓冲击穿的解决方案" />
   </component>
   <component name="WindowStateProjectService">
     <state x="861" y="177" key="#Notifications" timestamp="1592379572922">
@@ -322,10 +314,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="724" y="215" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592386869294" />
-    <state x="295" y="75" width="1216" height="843" key="CommitChangelistDialog2" timestamp="1592230646125">
+    <state x="295" y="75" width="1216" height="843" key="CommitChangelistDialog2" timestamp="1592401935740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="295" y="75" width="1216" height="843" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592230646125" />
+    <state x="295" y="75" width="1216" height="843" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592401935740" />
     <state x="57" y="44" width="1736" height="856" key="DiffContextDialog" timestamp="1592230643007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -334,38 +326,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1003" y="185" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591789943286" />
-    <state width="1528" height="478" key="GridCell.Tab.0.bottom" timestamp="1592396696090">
+    <state width="1528" height="476" key="GridCell.Tab.0.bottom" timestamp="1592402536386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="478" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592396696090" />
-    <state width="1528" height="478" key="GridCell.Tab.0.center" timestamp="1592396696090">
+    <state width="1528" height="476" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592402536386" />
+    <state width="1528" height="476" key="GridCell.Tab.0.center" timestamp="1592402536386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="478" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592396696090" />
-    <state width="1528" height="478" key="GridCell.Tab.0.left" timestamp="1592396696090">
+    <state width="1528" height="476" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592402536386" />
+    <state width="1528" height="476" key="GridCell.Tab.0.left" timestamp="1592402536386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="478" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592396696090" />
-    <state width="1528" height="478" key="GridCell.Tab.0.right" timestamp="1592396696090">
+    <state width="1528" height="476" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592402536386" />
+    <state width="1528" height="476" key="GridCell.Tab.0.right" timestamp="1592402536386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="478" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592396696090" />
-    <state width="1528" height="478" key="GridCell.Tab.1.bottom" timestamp="1592396696090">
+    <state width="1528" height="476" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592402536386" />
+    <state width="1528" height="476" key="GridCell.Tab.1.bottom" timestamp="1592402536386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="478" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592396696090" />
-    <state width="1528" height="478" key="GridCell.Tab.1.center" timestamp="1592396696090">
+    <state width="1528" height="476" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592402536386" />
+    <state width="1528" height="476" key="GridCell.Tab.1.center" timestamp="1592402536386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="478" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592396696090" />
-    <state width="1528" height="478" key="GridCell.Tab.1.left" timestamp="1592396696090">
+    <state width="1528" height="476" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592402536386" />
+    <state width="1528" height="476" key="GridCell.Tab.1.left" timestamp="1592402536386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="478" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592396696090" />
-    <state width="1528" height="478" key="GridCell.Tab.1.right" timestamp="1592396696090">
+    <state width="1528" height="476" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592402536386" />
+    <state width="1528" height="476" key="GridCell.Tab.1.right" timestamp="1592402536386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="478" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592396696090" />
+    <state width="1528" height="476" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592402536386" />
     <state width="1521" height="411" key="GridCell.Tab.2.bottom" timestamp="1592289119675">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -390,10 +382,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="456" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1591942221215" />
-    <state x="694" y="207" key="Vcs.Push.Dialog.v2" timestamp="1592229490635">
+    <state x="694" y="207" key="Vcs.Push.Dialog.v2" timestamp="1592401818063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="694" y="207" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592229490635" />
+    <state x="694" y="207" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592401818063" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1592380580394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -281,12 +281,6 @@ public class ManageServiceImpl implements ManageService {
 
     @Override
     public SkuInfo getSkuInfo(String skuId) {
-//        // 直接将skuImageList 放入skuInfo 中！
-//        SkuInfo skuInfo = skuInfoMapper.selectByPrimaryKey(skuId);
-//        SkuImage skuImage = new SkuImage();
-//        skuImage.setSkuId(skuId);
-//        List<SkuImage> images = skuImageMapper.select(skuImage);
-//        skuInfo.setSkuImageList(images);
         return getSkuInfoRedisLock(skuId);
     }
 
