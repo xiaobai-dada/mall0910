@@ -11,6 +11,7 @@ import java.util.List;
 @Data
 @ToString
 public class BaseAttrInfo implements Serializable {
+
     @Id
     @Column
     @GeneratedValue(strategy = GenerationType.IDENTITY) // 获取主键自增！

@@ -45,4 +45,8 @@ public class SkuInfo implements Serializable{
     @Transient
     List<SkuSaleAttrValue> skuSaleAttrValueList;
 
+    // spu的销售属性
+    @Transient
+    List<SpuSaleAttr> spuSaleAttrsList;
+
 }

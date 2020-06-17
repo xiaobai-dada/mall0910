@@ -7,24 +7,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mall-web-util" />
-        <module name="mall-bean" />
-        <module name="mall-interface" />
-        <module name="mall-order-web" />
+        <module name="mall-manage-web" />
         <module name="fastdfs-client-java" />
+        <module name="mall-interface" />
+        <module name="mall-item-web" />
+        <module name="demo-thymleaf" />
         <module name="mall-common-util" />
         <module name="mall-manage-service" />
-        <module name="mall-user-manage" />
-        <module name="mall-manage-web" />
+        <module name="mall-bean" />
         <module name="mall-service-util" />
+        <module name="mall-user-manage" />
+        <module name="mall-web-util" />
+        <module name="mall-order-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo-thymleaf" target="1.8" />
       <module name="fastdfs-client-java" target="1.6" />
       <module name="mall-bean" target="1.8" />
       <module name="mall-bean (1) (org.example)" target="1.8" />
       <module name="mall-common-util" target="1.8" />
       <module name="mall-interface" target="1.8" />
+      <module name="mall-item-web" target="1.8" />
       <module name="mall-manage-service" target="1.8" />
       <module name="mall-manage-web" target="1.8" />
       <module name="mall-order-web" target="1.8" />
@@ -36,6 +40,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo-thymleaf" options="-parameters" />
+      <module name="mall-item-web" options="" />
       <module name="mall-manage-service" options="" />
       <module name="mall-manage-web" options="" />
       <module name="mall-order-web" options="" />
