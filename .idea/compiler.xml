@@ -7,18 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mall-manage-web" />
+        <module name="mall-web-util" />
         <module name="fastdfs-client-java" />
         <module name="mall-interface" />
-        <module name="mall-item-web" />
+        <module name="mall-user-manage" />
+        <module name="mall-order-web" />
         <module name="demo-thymleaf" />
         <module name="mall-common-util" />
         <module name="mall-manage-service" />
+        <module name="mall-manage-web" />
+        <module name="mall-list-service" />
         <module name="mall-bean" />
+        <module name="mall-item-web" />
         <module name="mall-service-util" />
-        <module name="mall-user-manage" />
-        <module name="mall-web-util" />
-        <module name="mall-order-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,6 +30,7 @@
       <module name="mall-common-util" target="1.8" />
       <module name="mall-interface" target="1.8" />
       <module name="mall-item-web" target="1.8" />
+      <module name="mall-list-service" target="1.8" />
       <module name="mall-manage-service" target="1.8" />
       <module name="mall-manage-web" target="1.8" />
       <module name="mall-order-web" target="1.8" />
@@ -42,6 +44,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo-thymleaf" options="-parameters" />
       <module name="mall-item-web" options="" />
+      <module name="mall-list-service" options="" />
       <module name="mall-manage-service" options="" />
       <module name="mall-manage-web" options="" />
       <module name="mall-order-web" options="" />

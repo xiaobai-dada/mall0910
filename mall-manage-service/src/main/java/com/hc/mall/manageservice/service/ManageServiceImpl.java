@@ -284,8 +284,6 @@ public class ManageServiceImpl implements ManageService {
         return getSkuInfoRedisLock(skuId);
     }
 
-
-
     // 4.redisson
     private SkuInfo getSkuInfoRedisson(String skuId) {
         // 放入业务逻辑代码

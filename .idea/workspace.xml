@@ -1,12 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaa8f03c-3eec-44a9-8790-4cb8f7879ec1" name="Default Changelist" comment="截止2020-06-17重大更新，redisson，缓冲击穿的解决方案">
+    <list default="true" id="eaa8f03c-3eec-44a9-8790-4cb8f7879ec1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/MallManageServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/MallManageServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastdfs-client-java" beforeDir="false" afterPath="$PROJECT_DIR$/fastdfs-client-java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/common/IniFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/common/IniFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/ClientGlobal.java" beforeDir="false" afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/ClientGlobal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/DownloadStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/DownloadStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/FileInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/FileInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/StorageClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/StorageClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/StorageClient1.java" beforeDir="false" afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/StorageClient1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/StructGroupStat.java" beforeDir="false" afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/StructGroupStat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/StructStorageStat.java" beforeDir="false" afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/StructStorageStat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/TrackerGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/TrackerGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/TrackerServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/TrackerServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/UploadStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/UploadStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-manage-service/mall-manage-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/mall-manage-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/service/ManageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/src/main/java/com/hc/mall/manageservice/service/ManageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manage-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-manage-service/target/classes/com/hc/mall/manageservice/MallManageServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/target/classes/com/hc/mall/manageservice/MallManageServiceApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall-manage-service/target/classes/com/hc/mall/manageservice/service/ManageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manage-service/target/classes/com/hc/mall/manageservice/service/ManageServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-service-util/mall-service-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-service-util/mall-service-util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-service-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-service-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-user-manage/mall-user-manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-user-manage/mall-user-manage.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +130,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15004262" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="power.mode.ii" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -126,7 +148,33 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MallItemWebApplication">
+  <component name="RunManager" selected="Spring Boot.MallListServiceApplication">
+    <configuration name="MallListServiceApplicationTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hc.mall.listservice.MallListServiceApplicationTests" />
+      <module name="mall-list-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hc.mall.listservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testssss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hc.mall.listservice.impl.testssss" />
+      <module name="mall-list-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hc.mall.listservice.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoThymleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo-thymleaf" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hc.thymleaf.DemoThymleafApplication" />
@@ -137,6 +185,13 @@
     <configuration name="MallItemWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mall-item-web" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hc.web.MallItemWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallListServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-list-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hc.mall.listservice.MallListServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,12 +224,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.testssss" />
+        <item itemvalue="Application.MallListServiceApplicationTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.17261904" />
+          <option name="contentProportion" value="0.16450216" />
           <treeState>
             <expand>
               <path>
@@ -189,21 +250,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:MySQL - mall@192.168.1.136" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:MySQL - mall@192.168.1.136" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@1cd251bb" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -237,7 +284,9 @@
       <workItem from="1592379319362" duration="470000" />
       <workItem from="1592379809924" duration="129000" />
       <workItem from="1592379958637" duration="599000" />
-      <workItem from="1592380575214" duration="19352000" />
+      <workItem from="1592380575214" duration="21488000" />
+      <workItem from="1592442408728" duration="2280000" />
+      <workItem from="1592538033894" duration="8081000" />
     </task>
     <task id="LOCAL-00001" summary="项目上传">
       <created>1591931976671</created>
@@ -281,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592401797994</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="redisson，缓冲击穿的解决方案">
+      <created>1592404351680</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592404351680</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +347,8 @@
     <MESSAGE value="项目上传" />
     <MESSAGE value="截止2020-06-15重大更新" />
     <MESSAGE value="截止2020-06-17重大更新，redisson，缓冲击穿的解决方案" />
-    <option name="LAST_COMMIT_MESSAGE" value="截止2020-06-17重大更新，redisson，缓冲击穿的解决方案" />
+    <MESSAGE value="redisson，缓冲击穿的解决方案" />
+    <option name="LAST_COMMIT_MESSAGE" value="redisson，缓冲击穿的解决方案" />
   </component>
   <component name="WindowStateProjectService">
     <state x="861" y="177" key="#Notifications" timestamp="1592379572922">
@@ -314,50 +371,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="724" y="215" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592386869294" />
-    <state x="295" y="75" width="1216" height="843" key="CommitChangelistDialog2" timestamp="1592401935740">
+    <state x="295" y="75" width="1216" height="843" key="CommitChangelistDialog2" timestamp="1592404350745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="295" y="75" width="1216" height="843" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592401935740" />
-    <state x="57" y="44" width="1736" height="856" key="DiffContextDialog" timestamp="1592230643007">
+    <state x="295" y="75" width="1216" height="843" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592404350745" />
+    <state x="57" y="44" width="1736" height="856" key="DiffContextDialog" timestamp="1592459618119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="57" y="44" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592230643007" />
+    <state x="57" y="44" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592459618119" />
     <state x="1003" y="185" key="FileChooserDialogImpl" timestamp="1591789943286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1003" y="185" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591789943286" />
-    <state width="1528" height="476" key="GridCell.Tab.0.bottom" timestamp="1592402536386">
+    <state width="1543" height="395" key="GridCell.Tab.0.bottom" timestamp="1592557805283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="476" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592402536386" />
-    <state width="1528" height="476" key="GridCell.Tab.0.center" timestamp="1592402536386">
+    <state width="1543" height="395" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592557805283" />
+    <state width="1543" height="395" key="GridCell.Tab.0.center" timestamp="1592557805283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="476" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592402536386" />
-    <state width="1528" height="476" key="GridCell.Tab.0.left" timestamp="1592402536386">
+    <state width="1543" height="395" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592557805283" />
+    <state width="1543" height="395" key="GridCell.Tab.0.left" timestamp="1592557805283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="476" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592402536386" />
-    <state width="1528" height="476" key="GridCell.Tab.0.right" timestamp="1592402536386">
+    <state width="1543" height="395" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592557805283" />
+    <state width="1543" height="395" key="GridCell.Tab.0.right" timestamp="1592557805283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="476" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592402536386" />
-    <state width="1528" height="476" key="GridCell.Tab.1.bottom" timestamp="1592402536386">
+    <state width="1543" height="395" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592557805283" />
+    <state width="1543" height="395" key="GridCell.Tab.1.bottom" timestamp="1592557805283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="476" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592402536386" />
-    <state width="1528" height="476" key="GridCell.Tab.1.center" timestamp="1592402536386">
+    <state width="1543" height="395" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592557805283" />
+    <state width="1543" height="395" key="GridCell.Tab.1.center" timestamp="1592557805283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="476" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592402536386" />
-    <state width="1528" height="476" key="GridCell.Tab.1.left" timestamp="1592402536386">
+    <state width="1543" height="395" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592557805283" />
+    <state width="1543" height="395" key="GridCell.Tab.1.left" timestamp="1592557805283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="476" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592402536386" />
-    <state width="1528" height="476" key="GridCell.Tab.1.right" timestamp="1592402536386">
+    <state width="1543" height="395" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592557805283" />
+    <state width="1543" height="395" key="GridCell.Tab.1.right" timestamp="1592557805283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="476" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592402536386" />
+    <state width="1543" height="395" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592557805283" />
     <state width="1521" height="411" key="GridCell.Tab.2.bottom" timestamp="1592289119675">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -374,26 +431,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1521" height="411" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592289119675" />
-    <state x="315" y="88" width="1312" height="823" key="SettingsEditor" timestamp="1592396677869">
+    <state x="315" y="88" width="1312" height="823" key="SettingsEditor" timestamp="1592552408774">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="315" y="88" width="1312" height="823" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592396677869" />
+    <state x="315" y="88" width="1312" height="823" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592552408774" />
     <state width="498" height="456" key="SwitcherDM" timestamp="1591942221215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="456" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1591942221215" />
-    <state x="694" y="207" key="Vcs.Push.Dialog.v2" timestamp="1592401818063">
+    <state x="694" y="207" key="Vcs.Push.Dialog.v2" timestamp="1592404706625">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="694" y="207" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592401818063" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1592380580394">
+    <state x="694" y="207" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592404706625" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1592538033882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592380580394" />
-    <state x="516" y="168" key="new project wizard" timestamp="1592281073730">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592538033882" />
+    <state x="516" y="168" key="new project wizard" timestamp="1592550155635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="516" y="168" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592281073730" />
+    <state x="516" y="168" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592550155635" />
     <state x="1079" y="271" width="672" height="678" key="search.everywhere.popup" timestamp="1591885992725">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
