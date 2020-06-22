@@ -68,6 +68,9 @@ public class ManageServiceImpl implements ManageService {
     @Autowired
     RedisUitl redisUitl;
 
+    @Autowired
+    BaseAttrInfoMapper attrInfoMapper;
+
 
 
 
@@ -391,12 +394,22 @@ public class ManageServiceImpl implements ManageService {
 
     // 从数据库中获取商品详情
     private SkuInfo getSkuInfoDB(String skuId) {
+        // 直接将skuImageList 放入skuInfo 中！
         SkuInfo skuInfo = skuInfoMapper.selectByPrimaryKey(skuId);
+        skuInfo.setSkuImageList(getSkuImageBySkuId(skuId));
+        // 查询平台属性
+        SkuAttrValue skuAttrValue = new SkuAttrValue();
+        skuAttrValue.setSkuId(skuId);
+        skuInfo.setSkuAttrValueList(   skuAttrValueMapper.select(skuAttrValue));
+
+        return skuInfo;
+    }
+
+    private List<SkuImage> getSkuImageBySkuId(String skuId) {
         SkuImage skuImage = new SkuImage();
         skuImage.setSkuId(skuId);
-        List<SkuImage> images = skuImageMapper.select(skuImage);
-        skuInfo.setSkuImageList(images);
-        return skuInfo;
+        List<SkuImage> skuImageList = skuImageMapper.select(skuImage);
+        return skuImageList;
     }
 
     @Override
@@ -411,5 +424,8 @@ public class ManageServiceImpl implements ManageService {
         return skuSaleAttrValueMapper.selectSkuSaleAttrValueListBySpu(spuId);
     }
 
-
+    @Override
+    public List<BaseAttrInfo> getAttrValueIdList(List<String> attrValueIdList) {
+        return attrInfoMapper.getAttrValueIdList(attrValueIdList);
+    }
 }
