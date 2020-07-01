@@ -19,7 +19,13 @@ public interface SpuSaleAttrMapper extends Mapper<SpuSaleAttr> {
     List<SpuSaleAttr> selectSpuSaleAttrList(String spuId);
 
 
-    List<SpuSaleAttr> selectSpuSaleAttrListCheckBySku(String id, String spuId);
+
+    List<SpuSaleAttr> selectSpuSaleAttrListCheckBySku(String skuId, String spuId);
+
+
+
+
+
 
 }
 

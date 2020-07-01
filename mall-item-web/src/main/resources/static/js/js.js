@@ -55,84 +55,49 @@ $(function(){
 		});
 
 
-	/**
-	 * 切换页面的前段代码
-	 */
-	// function switchSkuId() {
-	// 	var checkDivs = $(".redborder div");
-	// 	console.log("len:"+checkDivs.length)
-	// 	var valueIds="";
-	// 	for (var i = 0; i < checkDivs.length; i++) {
-	// 		// eq(i) 获取checkDivs 集合，数组中的每个对象
-	// 		var saleAttrValueDiv = checkDivs.eq(i);
-	// 		if(i>0){
-	// 			valueIds= valueIds+"|";
-	// 		}
-	// 		// 118|120
-	// 		/*.attr("value") 获取value 的属性值！*/
-	// 		valueIds=valueIds+saleAttrValueDiv.attr("value");
-	//
-	// 	}
-	// 	console.log("valueIds:"+valueIds);  // var valueIds="124|126";
-	// 	var valuesSku = $("#valuesSku").attr("value");
-	// 	console.log("valuesSku:"+valuesSku);
-	// 	// 将json 字符串转换为对象
-	// 	var valuesSkuJson=JSON.parse(valuesSku);
-	// 	// 33= valuesSkuJson[118|120]
-	// 	var skuId= valuesSkuJson[valueIds];
-	// 	console.log("skuId:"+skuId);
-	// 	var skuIdSelf=$("#skuId").val();
-	// 	if(skuId){
-	// 		if(skuId==skuIdSelf){
-	// 			$("#cartBtn").attr("class","box-btns-two");
-	// 		}else{
-	// 			window.location.href="/"+skuId+".html";
-	// 		}
-	//
-	//
-	// 	}else{
-	// 		$("#cartBtn").attr("class","box-btns-two-off");
-	// 	}
-	//
-	// }
 
-	function switchSkuId(){
-		var checkDivs = $(".redborder div");
-		console.log("len:"+checkDivs.length)
-		var valueIds = "";
-		for (var i = 0;i < checkDivs.length;i++){
-			// eq(i) 获取checkDivs 集合，数组中的每个对象
-			var saleAttrValueDiv = checkDivs.eq(i);
-			if (i > 0){
-				valueIds = valueIds + "|";
-			}
-			// 118|120
-			/*.attr("value") 获取value 的属性值！*/
-			valueIds = valueIds + saleAttrValueDiv.attr("value");
-		}
+	
+	    function switchSkuId() {
+			var checkDivs = $(".redborder div");
+			console.log("len:"+checkDivs.length)
+			var valueIds="";
+            for (var i = 0; i < checkDivs.length; i++) {
+            	// eq(i) 获取checkDivs 集合，数组中的每个对象
+                var saleAttrValueDiv = checkDivs.eq(i);
+                if(i>0){
+                    valueIds= valueIds+"|";
+				}
+				// 118|120
+				/*.attr("value") 获取value 的属性值！*/
+                valueIds=valueIds+saleAttrValueDiv.attr("value");
 
-		console.log("valueIds:"+valueIds);  // var valueIds="124|126";
-		var valuesSku = $("#valuesSku").attr("value");
-		console.log("valuesSku:"+valuesSku);
-		// 将json 字符串转换为对象
-		var valuesSkuJson = JSON.parse(valuesSku);
-		// 33= valuesSkuJson[118|120]
-		var skuId = valuesSkuJson[valueIds];
-		console.log("skuId:"+skuId);
-		var skuIdSelf = $("#skuId").val();
-		if (skuId){
-			if (skuId == skuIdSelf){
-				$("#cartBtn").attr("class","box-btns-two");
-			}else {
-				window.location.href="/" + skuId + ".html";
+            }
+            console.log("valueIds:"+valueIds);  // var valueIds="124|126";
+            var valuesSku = $("#valuesSku").attr("value");
+            console.log("valuesSku:"+valuesSku);
+            // 将json 字符串转换为对象
+            var valuesSkuJson=JSON.parse(valuesSku);
+            // 33= valuesSkuJson[118|120]
+            var skuId= valuesSkuJson[valueIds];
+			console.log("skuId:"+skuId);
+			var skuIdSelf=$("#skuId").val();
+			if(skuId){
+				if(skuId==skuIdSelf){
+                    $("#cartBtn").attr("class","box-btns-two");
+				}else{
+                    window.location.href="/"+skuId+".html";
+				}
+
+
+			}else{
+                $("#cartBtn").attr("class","box-btns-two-off");
 			}
-		}else {
-			$("#cartBtn").attr("class","box-btns-two-off");
-		}
-	}
+
+        }
+
+
 	
-	
-	// CommonsMultipartResolver
+
 		$(".box-attr dd").click(function() {
 			$(this).css({
 				"border": "solid 1px red"

@@ -12,7 +12,8 @@
 
     <artifactId>mall-web-util</artifactId>
 
-    <dependencies>
+
+     <dependencies>
         <dependency>
             <groupId>com.hc.mall</groupId>
             <artifactId>mall-common-util</artifactId>
@@ -24,7 +25,8 @@
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
-        <!--松校验-->
+
+         <!--松校验-->
         <dependency>
             <groupId>net.sourceforge.nekohtml</groupId>
             <artifactId>nekohtml</artifactId>
@@ -36,6 +38,13 @@
         <dependency>
             <groupId>org.apache.xmlgraphics</groupId>
             <artifactId>batik-ext</artifactId>
+        </dependency>
+
+
+         <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.9.0</version>
         </dependency>
 
     </dependencies>

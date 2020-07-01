@@ -1,6 +1,9 @@
 package com.hc.mall.manageservice.costant;
 
-
+/**
+ * @author 老铁
+ * @create 2020-06-17 14:37
+ */
 public class ManageConst {
 
     public static final String SKUKEY_PREFIX="sku:";

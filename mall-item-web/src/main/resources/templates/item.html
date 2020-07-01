@@ -4,8 +4,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="../static/scss/shop.css" th:href="@{/scss/shop.css}"/>
-		<link rel="stylesheet" type="text/css" href="../static/scss/main.css" th:href="@{/scss/main.css}"/>
+		<link rel="stylesheet" type="text/css" href="../static/scss/shop.css" th:href="@{/scss/shop.css}" />
+		<link rel="stylesheet" type="text/css" href="../static/scss/main.css" th:href="@{/scss/main.css}" />
 		<link rel="stylesheet" href="../static/scss/header.css" th:href="@{/scss/header.css}" />
 		<link rel="stylesheet" type="text/css" href="../static/bootstrap/css/bootstrap.css" th:href="@{/bootstrap/css/bootstrap.css}"/>
 	</head>
@@ -57,7 +57,12 @@
 							</li>
 						</ul>
 						<ul class="header_ul_right">
-							<li style="border: 0;"><a href="http://passport.hc.com/index.html" class="aa" >你好，请登录</a></li>
+							<li style="border: 0;"><a href="http://passport.hc.com/index.html" class="aa" >
+								<span th:if="${nickName}!=null" th:text="${nickName}">
+								你好，请登录
+								</span>
+							</a></li>
+
 							<li><a href="http://passport.hc.com/index.html" style="color: red;">免费注册</a> |</li>
 							<li><a href="javascript:;" class="aa">我的订单</a> |</li>
  
@@ -67,12 +72,11 @@
 				<nav>
 				<div class="nav_min">
 					<div class="nav_top">
-<!--						th:src="@{/img/logo1.jpg}"-->
-						<div class="nav_top_one"><a href="#"><img src="//img10.360buyimg.com/img/jfs/t1/117726/20/7368/88789/5ec3777cE70ffaf64/47d8f5d0310958bd.gif" /></a></div>
+						<div class="nav_top_one"><a href="#"><img src="/img/logo1.jpg" th:src="@{/img/logo1.jpg}"/></a></div>
 						<div class="nav_top_two"><input type="text"/><button>搜索</button></div>
 						<div class="nav_top_three"><a href="../JD_Shop/One_JDshop.html">我的购物车</a><span class="glyphicon glyphicon-shopping-cart"></span>
 							<div class="nav_top_three_1">
-								<img src="../static/img/44.png" th:src="@{/img/44.jpg}"/>购物车还没有商品，赶紧选购吧！
+								<img src="/img/44.png" />购物车还没有商品，赶紧选购吧！
 							</div>
 						</div>
 					</div>
@@ -104,24 +108,31 @@
 
 					<div class="imgbox">
 						<div class="probox">
-							<img class="img1" alt=""    src="../static/img/59ded626N7c4cb0a3.jpg" th:src="${skuInfo.skuDefaultImg}">
+							<img class="img1" alt="" th:src="${skuInfo.skuDefaultImg}"   src="/img/59ded626N7c4cb0a3.jpg">
 							<div class="hoverbox"></div>
 						</div>
 						<div class="showbox">
-							<img class="img1" alt=""  src="../static/img/59ded626N7c4cb0a3.jpg">
+							<img class="img1" alt="" th:src="${skuInfo.skuDefaultImg}"  src="/img/59ded626N7c4cb0a3.jpg">
 						</div>
 					</div>
 
-					<div class="box-lh" >
+					<div class="box-lh">
 
-						<div class="box-lh-one"  >
-							<ul >
+						<div class="box-lh-one">
+							<ul>
  
- 								<li th:each="image:${skuInfo.skuImageList}"><img src="../static/img/59ded62eN64a9784c.jpg" th:src="${image.imgUrl}"/></li>
-<!--								<li><img src="../static/img/59ded626Ne3c69b70.jpg" /></li>-->
-<!--								<li><img src="../static/img/59ded626N7c4cb0a3.jpg" /></li>-->
-<!--								<li><img src="../static/img/59ded626Ne3c69b70.jpg" /></li>-->
-<!--								<li><img src="../static/img/59ded62dN7e28abc5%20(1).jpg" /></li>-->
+ 								<!--<li th:each="skuImage: ${skuImageList}">
+									<img th:src="${skuImage.imgUrl}" src="/img/59ded62eN64a9784c.jpg" />
+								</li>-->
+								<li th:each="skuImage: ${skuInfo.skuImageList}">
+									<img th:src="${skuImage.imgUrl}" src="/img/59ded62eN64a9784c.jpg" />
+								</li>
+
+
+								<!--<li><img src="/img/59ded626Ne3c69b70.jpg" /></li>-->
+								<!--<li><img src="/img/59ded626N7c4cb0a3.jpg" /></li>-->
+								<!--<li><img src="/img/59ded626Ne3c69b70.jpg" /></li>-->
+								<!--<li><img src="/img/59ded62dN7e28abc5%20(1).jpg" /></li>-->
  
 								 
 							</ul>
@@ -147,8 +158,8 @@
 
 					</div>
 					<div class="box-two">
-						<div class="box-name"  th:text="${skuInfo.skuName}" >
-							华为 HUAWEI [[skuInfo.skuName]]Mate 10 6GB+128GB 亮黑色 移动联通电信4G手机 双卡双待
+						<div class="box-name" th:text="${skuInfo.skuName}" >
+							华为 HUAWEI Mate 10 6GB+128GB 亮黑色 移动联通电信4G手机 双卡双待
 						</div>
  
 						<div class="box-yuyue">
@@ -211,7 +222,7 @@
  
 
 								</li>
-								<li  th:text="${skuInfo.weight}" >
+								<li th:text="${skuInfo.weight}" >
 									  10 kg
 								</li>
  
@@ -220,28 +231,61 @@
 						  
 						<div class="box-attr-3">
 						<br/>
-
-							<!--	隐藏域	-->
+							<!--隐藏域-->
 							<input type="hidden" id="valuesSku" th:value="${valuesSkuJson}"/>
 							<input type="hidden" id="skuId" th:value="${skuInfo.id}"/>
 
 							<div class="box-attr-2 clear" th:each="spuSaleAttr: ${spuSaleAttrList}" >
 								<dl>
-									<dt th:text="${spuSaleAttr.saleAttrName}">选择颜色</dt>
-									<dd  class="redborder" th:class="${spuSaleAttrValue.isChecked}==1?'redborder':''" th:each="spuSaleAttrValue: ${spuSaleAttr.spuSaleAttrValueList}">
-										<div th:value="${spuSaleAttrValue.id}" th:text="${spuSaleAttrValue.saleAttrValueName}">
+									<dt th:text="${spuSaleAttr.saleAttrName}" >选择颜色</dt>
+									<dd th:class="${spuSaleAttrValue.isChecked}==1?'redborder':''" class="redborder" th:each="spuSaleAttrValue: ${spuSaleAttr.spuSaleAttrValueList}">
+										<div th:value="${spuSaleAttrValue.id}" th:text="${spuSaleAttrValue.saleAttrValueName}" >
 											  摩卡金
 										</div>
 									</dd>
-
+									<!--<dd  class="" >
+										<div  >
+											  太空银
+										</div>
+									</dd>-->
 								</dl>
+							</div>
+							<!--<div class="box-attr-2 clear">
+								<dl>
+									<dt>选择版本</dt>
+									<dd>
+										<a href="#">标准版</a>
+									</dd>
+									<dd>
+										<a href="#">套装版</a>
+									</dd>
+								</dl>
+							</div>-->
+<!--
+							<div class="box-attr-2 clear">
+								<dl>
+									<dt>选择内存</dt>
+									<dd>
+										<a href="#">64GB</a>
+									</dd>
+									<dd>
+										<a href="#">128GB</a>
+									</dd>
+								</dl>
+							</div>-->
+							<br/>
 						</div>
-						</div>
+
 						<div class="box-btns clear">
 							<div class="box-btns-one">
-								<form id="itemForm" action="http://cart.gmall.com/addToCart" method="post">
-								<input type="text" name="num" id="" value="1" />
-								<input type="hidden" name="skuId"   />
+								<form id="itemForm" action="http://cart.mall.com/addToCart" method="post">
+
+<!--								<input type="text" name="num" id="" value="1" />-->
+<!--								<input type="hidden" name="skuId"   />-->
+
+									<input type="text" name="skuNum" id="" value="1" />
+									<!--因为没有value属性-->
+									<input type="hidden" name="skuId" th:value="${skuInfo.id}"  />
 
 								<div class="box-btns-one1">
 
@@ -282,30 +326,30 @@
 					<div class="dangeshopxingqing">
 						<ul class="shopdange">
 							<li>
-								<a href="##"><img src="//img12.360buyimg.com/n1/s160x160_jfs/t1/4528/10/3590/153299/5b997bf5E4a513949/45ab3dd6c35d981b.jpg"/></a>
+								<a href="##"><img src="/img/5a0afeddNb34732af.jpg" /></a>
 								<p>
 									<a href="##">OPPO R11s Plus 双卡双待全面屏拍照手机香槟色 全网通(6G RAM+64G ROM)标配</a>
 								</p>
 								<p><strong class="J-p-20015341974">￥3699.00</strong></p>
 							</li>
 							<li>
-								<a href="##"><img src="//img12.360buyimg.com/n1/s160x160_jfs/t1/4528/10/3590/153299/5b997bf5E4a513949/45ab3dd6c35d981b.jpg" /></a>
+								<a href="##"><img src="/img/5a12873eN41754123.jpg" /></a>
 								<p>
-									<a target="_blank" title="詹姆士（GEMRY） R19plus全网通4G 智能手机 双卡双待 6+128GB 鳄鱼纹雅致版（新品预约）" href="http://192.168.1.136/group1/M00/00/00/wKgBiF7oeFaAb5h4AABet3-mfoQ175.jpg">詹姆士（GEMRY） R19plus全网通4G 智能手机 双卡双待 6+128GB 鳄鱼纹雅致版（新品预约）</a>
+									<a target="_blank" title="詹姆士（GEMRY） R19plus全网通4G 智能手机 双卡双待 6+128GB 鳄鱼纹雅致版（新品预约）" href=".//item.jd.com/20348283521.html">詹姆士（GEMRY） R19plus全网通4G 智能手机 双卡双待 6+128GB 鳄鱼纹雅致版（新品预约）</a>
 								</p>
 								<p><strong class="J-p-20348283521">￥13999.00</strong></p>
 							</li>
 							<li>
-								<a href="##"><img src="//img12.360buyimg.com/n1/s160x160_jfs/t1/4528/10/3590/153299/5b997bf5E4a513949/45ab3dd6c35d981b.jpg"/></a>
+								<a href="##"><img src="/img/59ec0131Nf239df75.jpg" /></a>
 								<p>
-									<a target="_blank" title="斐纳（TOMEFON） 德国家用无线无绳手持立式充电吸尘器 静音大吸力吸尘器TF-X60" href="http://192.168.1.136/group1/M00/00/00/wKgBiF7oeFaAb5h4AABet3-mfoQ175.jpg">斐纳（TOMEFON） 德国家用无线无绳手持立式充电吸尘器 静音大吸力吸尘器TF-X60</a>
+									<a target="_blank" title="斐纳（TOMEFON） 德国家用无线无绳手持立式充电吸尘器 静音大吸力吸尘器TF-X60" href=".//item.jd.com/16683419775.html">斐纳（TOMEFON） 德国家用无线无绳手持立式充电吸尘器 静音大吸力吸尘器TF-X60</a>
 								</p>
 								<p><strong class="J-p-16683419775">￥1599.00</strong></p>
 							</li>
 							<li>
-								<a href="##"><img src="//img12.360buyimg.com/n1/s160x160_jfs/t1/4528/10/3590/153299/5b997bf5E4a513949/45ab3dd6c35d981b.jpg"/></a>
+								<a href="##"><img src="/img/59015444N27317512.jpg" /></a>
 								<p>
-									<a target="_blank" title="斐纳（TOMEFON） 扫地机器人德国智能导航规划全自动超薄扫地机器人吸尘器TF-D60 香槟金" href="http://192.168.1.136/group1/M00/00/00/wKgBiF7oeFaAb5h4AABet3-mfoQ175.jpg">斐纳（TOMEFON） 扫地机器人德国智能导航规划全自动超薄扫地机器人吸尘器TF-D60 香槟金</a>
+									<a target="_blank" title="斐纳（TOMEFON） 扫地机器人德国智能导航规划全自动超薄扫地机器人吸尘器TF-D60 香槟金" href=".//item.jd.com/12187770381.html">斐纳（TOMEFON） 扫地机器人德国智能导航规划全自动超薄扫地机器人吸尘器TF-D60 香槟金</a>
 								</p>
 								<p><strong class="J-p-12187770381">￥2599.00</strong></p>
 							</li>
@@ -318,13 +362,13 @@
 					<div class="dangeshopxingqing">
 						<ul class="shopdange">
 							<li>
-								<a href="##"><img src="../static/img/59e55e01N369f98f2.jpg" th:src="@{/img/59e55e01N369f98f2.jpg}"/></a>
+								<a href="##"><img src="/img/59e55e01N369f98f2.jpg" /></a>
 								<p>
-									<a target="_blank" title="华为（HUAWEI） 华为 Mate10 4G手机  双卡双待 亮黑色 全网通(6GB RAM+128GB ROM)" href="//item.jd.com/17931625443.html">华为（HUAWEI） 华为 Mate10 4G手机 双卡双待 亮黑色 全网通(6GB RAM+128GB ROM)</a>
+									<a target="_blank" title="华为（HUAWEI） 华为 Mate10 4G手机  双卡双待 亮黑色 全网通(6GB RAM+128GB ROM)" href=".//item.jd.com/17931625443.html">华为（HUAWEI） 华为 Mate10 4G手机 双卡双待 亮黑色 全网通(6GB RAM+128GB ROM)</a>
 									<p><strong class="J-p-17931625443">￥4766.00</strong></p>
 							</li>
 							<li>
-								<a href="##"><img src="../static/img/584fcc3eNdb0ab94c.jpg" th:src="@{/img/584fcc3eNdb0ab94c.jpg}"/></a>
+								<a href="##"><img src="/img/584fcc3eNdb0ab94c.jpg" /></a>
 								<p>
 									<a target="_blank" title="华为 Mate 9 Pro 6GB+128GB版 琥珀金 移动联通电信4G手机 双卡双待" href=".//item.jd.com/3749093.html">华为 Mate 9 Pro 6GB+128GB版 琥珀金 移动联通电信4G手机 双卡双待</a>
 								</p>
@@ -332,21 +376,21 @@
 							</li>
 							<li>
 								<!--shopjieshao-->
-								<a href="##"><img src="../static/img/59eb0df9Nd66d7585.jpg" th:src="@{/img/59eb0df9Nd66d7585.jpg}"/></a>
+								<a href="##"><img src="/img/59eb0df9Nd66d7585.jpg" /></a>
 								<p>
 									<a target="_blank" title="华为（HUAWEI） 华为 Mate10 手机 亮黑色 全网通(4+64G)标准版" href=".//item.jd.com/12306211773.html">华为（HUAWEI） 华为 Mate10 手机 亮黑色 全网通(4+64G)标准版</a>
 								</p>
 								<p><strong class="J-p-12306211773">￥4088.00</strong></p>
 							</li>
 							<li>
-								<a href="##"><img src="../static/img/5a002ba3N126c2f73.jpg" th:src="@{/img/5a002ba3N126c2f73.jpg}"/></a>
+								<a href="##"><img src="/img/5a002ba3N126c2f73.jpg" /></a>
 								<p>
 									<a target="_blank" title="斐纳（TOMEFON） 扫地机器人德国智能导航规划全自动超薄扫地机器人吸尘器TF-D60 香槟金" href=".//item.jd.com/12187770381.html">斐纳（TOMEFON） 扫地机器人德国智能导航规划全自动超薄扫地机器人吸尘器TF-D60 香槟金</a>
 								</p>
 								<p><strong class="J-p-12187770381">￥2599.00</strong></p>
 							</li>
 						</ul>
-						<img src="../static/img/5a084a1aNa1aa0a71.jpg" th:src="@{/img/5a084a1aNa1aa0a71.jpg}"/>
+						<img src="/img/5a084a1aNa1aa0a71.jpg" />
 					</div>
 				</div>
 				<!--商品介绍-->
@@ -431,7 +475,7 @@
 											</td>
 										</tr>
 									</table>
-									<img class="xiaoguo" src="../static/img/5a0d4181Nf70c5ebf.jpg" th:src="@{/img/5a0d4181Nf70c5ebf.jpg}"/>
+									<img class="xiaoguo" src="/img/5a0d4181Nf70c5ebf.jpg" />
 									<div class="guiGebox guiGebox1">
 										<div class="guiGe">
 											<h3>主体</h3>
@@ -980,13 +1024,13 @@
 			</ul>
 		</div>
 		<div class="gouwuchexiaguo">
-			<img src="../static/img/44.png" th:src="@{/img/44.png}"/>
+			<img src="/img/44.png" />
 			<span>购物车还没有商品，赶紧选购吧！</span>
 		</div>
 	</body>
 
-	<script src="/js/jquery1.9.js" type="text/javascript" charset="utf-8"></script>
-	<script src="/js/js.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../static/js/jquery1.9.js"  type="text/javascript" charset="utf-8" th:src="@{/js/jquery1.9.js}"></script>
+	<script src="../static/js/js.js" type="text/javascript" charset="utf-8" th:src="@{/js/js.js}"></script>
 	<script type="text/javascript">
 		function addToCart(){
 		    $("#itemForm").submit();

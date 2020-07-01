@@ -5,12 +5,30 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author 小白
- * @create 2020-06-17-20:48
+ * @author 老铁
+ * @create 2020-06-17 11:49
  */
-@Configuration
+
+/*
+    <beans>
+        <bean id=“redisUtil” class="com.hc.mall.config.RedisUitl">
+            <property name="host" value="">
+            <property name="port" value="">
+            <property name="database" value="">
+        </bean>
+
+    </beans>
+
+ */
+
+
+@Configuration // 相当于 .xml文件
 public class RedisConfig {
 
+
+
+
+    // disable表示如果没有从配置文件中获取到host，则默认值为disable
     @Value("${spring.redis.host:disable}")
     private String host;
     @Value("${spring.redis.port}")
@@ -18,10 +36,12 @@ public class RedisConfig {
     @Value("${spring.redis.database}")
     private int database;
 
+
+    // 将获取到的数据传入initJedisPool方法中
     @Bean
     public RedisUitl getRedisUitl(){
 
-        if ("disable".equals(host)){
+        if("disable".equals(host)){
             return null;
         }
 
@@ -29,7 +49,5 @@ public class RedisConfig {
         // 将initJedisPool方法中的值传入
         redisUitl.initJedisPool(host,port,database);
         return redisUitl;
-
     }
-
 }

@@ -7,8 +7,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
-@MapperScan("com.hc.mall.manageservice.mapper")
-@EnableTransactionManagement
+@MapperScan(basePackages = "com.hc.mall.manageservice.mapper")
+@EnableTransactionManagement  // 开启事务管理
 @ComponentScan("com.hc.mall")
 public class MallManageServiceApplication {
 

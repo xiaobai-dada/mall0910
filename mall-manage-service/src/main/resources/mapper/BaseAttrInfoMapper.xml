@@ -33,25 +33,10 @@
 
 
     </select>
-
-<!--    List<BaseAttrInfo> getAttrValueIdList(List<String> attrValueIdList);-->
-    <!--        WHERE-->
-<!--    bai.catalog3_id = 61;-->
-<!--    bai.id,bai.attr_name,bav.id,bav.value_name-->
-    <select id="getAttrValueIdList" resultMap="attrValueList" >
-
-        select
-        *
-        from
-        base_attr_value bav
-        LEFT JOIN
-        base_attr_info bai
-        ON
-        bai.id = bav.attr_id
-        WHERE
-        bav.id in
-        <foreach collection="list" item="id" separator="," open="(" close=")">
-            #{id}
-        </foreach>
+    <!-- List<BaseAttrInfo> selectAttrInfoListByIds(String valueIds);   -->
+    <select id="selectAttrInfoListByIds" resultMap="attrValueList">
+        SELECT ai.id,ai.attr_name,ai.catalog3_id, av.id attr_value_id ,av.attr_id ,av.value_name
+        FROM base_attr_info ai INNER JOIN base_attr_value av ON ai.id=av.attr_id
+        WHERE av.id IN (${valueIds})
     </select>
 </mapper>

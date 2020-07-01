@@ -3,5 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/fastdfs-client-java" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mall0910" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mall0910/fastdfs-client-java" vcs="Git" />
   </component>
 </project>

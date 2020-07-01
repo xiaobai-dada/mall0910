@@ -7,11 +7,13 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.List;
 
-
+/**
+ * @author 老铁
+ * @create 2020-06-11 15:15
+ */
 @Data
 @ToString
 public class BaseAttrInfo implements Serializable {
-
     @Id
     @Column
     @GeneratedValue(strategy = GenerationType.IDENTITY) // 获取主键自增！

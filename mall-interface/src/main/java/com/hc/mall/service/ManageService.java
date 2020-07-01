@@ -39,7 +39,7 @@ public interface ManageService {
      */
       //public List<BaseAttrValue> getAttrValueList(String attrId);
 
-
+      
 
       //获取平台属性对象,根据平台属性Id
       public BaseAttrInfo getAttrInfo(String attrId);
@@ -87,12 +87,40 @@ public interface ManageService {
     void saveSkuInfo(SkuInfo skuInfo);
 
 
-    // 根据商品id查找商品信息，图片信息并在页面显示
+    /**
+     * 根据skuId 查询skuInfo
+     * @param skuId
+     * @return
+     */
     SkuInfo getSkuInfo(String skuId);
 
+    /**
+     * 根据skuId 查询skuImage集合
+     * @param skuId
+     * @return
+     */
+    List<SkuImage> getSkuImageBySkuId(String skuId);
+
+
+    /**
+     * 根据skuId,spuId 查询销售属性集合
+     * @param skuInfo
+     * @return
+     */
     List<SpuSaleAttr> getSpuSaleAttrListCheckBySku(SkuInfo skuInfo);
 
+    /**
+     * 根据spuId 查询销售属性值集合
+     * @param spuId
+     * @return
+     */
     List<SkuSaleAttrValue> getSkuSaleAttrValueListBySpu(String spuId);
 
-    List<BaseAttrInfo> getAttrValueIdList(List<String> attrValueIdList);
+
+    /**
+     * 根据平台属性值id查询
+     * @param attrValueIdList
+     * @return
+     */
+    List<BaseAttrInfo> getAttrList(List<String> attrValueIdList);
 }

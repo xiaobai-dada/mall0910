@@ -44,5 +44,17 @@ public interface UserService  {
      */
     public List<UserAddress> getUserAddressList(String userId);
 
+    /**
+     * 用户登录
+     * @param userInfo
+     * @return
+     */
+    UserInfo login(UserInfo userInfo);
 
+    /**
+     * 认证用户
+     * @param userId
+     * @return
+     */
+    UserInfo verify(String userId);
 }

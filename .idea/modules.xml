@@ -2,21 +2,27 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/demo-thymleaf/demo-thymleaf.iml" filepath="$PROJECT_DIR$/demo-thymleaf/demo-thymleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/fastdfs-client-java/fastdfs-client-java.iml" filepath="$PROJECT_DIR$/fastdfs-client-java/fastdfs-client-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-bean/mall-bean.iml" filepath="$PROJECT_DIR$/mall-bean/mall-bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-cart-service/mall-cart-service.iml" filepath="$PROJECT_DIR$/mall-cart-service/mall-cart-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-cart-web/mall-cart-web.iml" filepath="$PROJECT_DIR$/mall-cart-web/mall-cart-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-common-util/mall-common-util.iml" filepath="$PROJECT_DIR$/mall-common-util/mall-common-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-interface/mall-interface.iml" filepath="$PROJECT_DIR$/mall-interface/mall-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-item-web/mall-item-web.iml" filepath="$PROJECT_DIR$/mall-item-web/mall-item-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-list-service/mall-list-service.iml" filepath="$PROJECT_DIR$/mall-list-service/mall-list-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-list-web/mall-list-web.iml" filepath="$PROJECT_DIR$/mall-list-web/mall-list-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-manage-service/mall-manage-service.iml" filepath="$PROJECT_DIR$/mall-manage-service/mall-manage-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-manage-web/mall-manage-web.iml" filepath="$PROJECT_DIR$/mall-manage-web/mall-manage-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-order-service/mall-order-service.iml" filepath="$PROJECT_DIR$/mall-order-service/mall-order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-order-web/mall-order-web.iml" filepath="$PROJECT_DIR$/mall-order-web/mall-order-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-parent/mall-parent.iml" filepath="$PROJECT_DIR$/mall-parent/mall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-passport-web/mall-passport-web.iml" filepath="$PROJECT_DIR$/mall-passport-web/mall-passport-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-payment/mall-payment.iml" filepath="$PROJECT_DIR$/mall-payment/mall-payment.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-service-util/mall-service-util.iml" filepath="$PROJECT_DIR$/mall-service-util/mall-service-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-user-manage/mall-user-manage.iml" filepath="$PROJECT_DIR$/mall-user-manage/mall-user-manage.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-web-util/mall-web-util.iml" filepath="$PROJECT_DIR$/mall-web-util/mall-web-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall0910.iml" filepath="$PROJECT_DIR$/mall0910.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ware-manage/ware-manage.iml" filepath="$PROJECT_DIR$/ware-manage/ware-manage.iml" />
     </modules>
   </component>
 </project>

@@ -7,12 +7,12 @@
     <groupId>com.hc.mall</groupId>
     <artifactId>mall-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
         <module>../mall-bean</module>
         <module>../mall-interface</module>
         <module>../mall-common-util</module>
         <module>../mall-service-util</module>
-        <module>../mall-user-manage</module>
         <module>../mall-web-util</module>
     </modules>
     <packaging>pom</packaging>

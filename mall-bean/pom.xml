@@ -12,7 +12,7 @@
 
     <artifactId>mall-bean</artifactId>
 
-    <!--   通用mapper 和 lombok-->
+<!--   通用mapper 和 lombok-->
     <dependencies>
         <dependency>
             <groupId>tk.mybatis</groupId>
@@ -29,4 +29,6 @@
             <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
+
+
 </project>
